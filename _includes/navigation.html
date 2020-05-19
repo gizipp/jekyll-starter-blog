@@ -1,0 +1,10 @@
+<nav>
+  <ul style="display: flex; flex-wrap: wrap; justify-content: space-between; list-style: none; padding: 0px;">
+    {% if page.previous.url %} 
+      <li><a rel="prev" href="{{ page.previous.url }}">← {{ page.previous.title }}</a></li>
+    {% endif %} 
+    {% if page.next.url %} 
+      <li><a rel="next" href="{{ page.next.url }}">{{ page.next.title }} →</a></li>
+    {% endif %} 
+  </ul>
+</nav>

@@ -1,0 +1,10 @@
+name: 'Gilang R. Aprianto'
+bio: >
+  Written by <strong>Gilang R. Aprianto</strong> who lives and works in Jakarta building useful things.
+author_image: "/assets/images/author.jpg"
+
+twitter: gizipp
+title: Jekyll Starter Blog
+url: 'https://jekyll-starter-blog.gizipp.com' # The base hostname & protocol for your site. Use it if you need absolute URL's
+base_url: ''
+permalink: /:title
